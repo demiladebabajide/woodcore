@@ -1,12 +1,9 @@
 package com.example.woodcore.model;
-// Account.java
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.util.ObjectUtils;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -41,10 +38,5 @@ public class Account {
         this.lastName = lastName;
         this.address = address;
     }
-    // Other attributes and getters/setters
 
-//    @JsonIgnore
-//    public boolean isValid(){
-//        return !(ObjectUtils.isEmpty(firstName) || ObjectUtils.isEmpty(lastName) || ObjectUtils.isEmpty(address));
-//    }
 }

@@ -14,16 +14,12 @@ import javax.validation.constraints.Min;
 @ToString
 @NoArgsConstructor
 public class TransactionRequest {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    Long id;
 
     Long sourceAccountNumber;
 
     @Min(value = 0, message = "Amount must be positive")
     Double amount;
 
-//    String reference;
 
 
 }

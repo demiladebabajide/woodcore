@@ -1,5 +1,4 @@
 package com.example.woodcore.model;
-// Customer.java
 
 import lombok.Getter;
 import lombok.Setter;
@@ -19,5 +18,4 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    // Other attributes and getters/setters
-}
+    }

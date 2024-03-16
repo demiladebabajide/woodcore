@@ -13,18 +13,5 @@ import javax.persistence.Entity;
 @ToString
 public class DepositResponse extends Transaction
  {
-//     @Id
-//     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//     Long id;
-//
-//     Long accountNumber;
-//
-//     Double amount;
-//
-//     String reference;
-//
-//     String comments;
-//
-//     TransactionStatus status;
 
  }
