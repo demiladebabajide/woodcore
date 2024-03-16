@@ -1,9 +1,6 @@
 package com.example.woodcore.config;
 
 import com.example.woodcore.model.Account;
-import com.example.woodcore.model.DepositRequest;
-import com.example.woodcore.model.Transaction;
-import com.example.woodcore.repository.AccountRepository;
 import com.example.woodcore.service.AccountService;
 import com.example.woodcore.service.TransactionService;
 import org.slf4j.Logger;

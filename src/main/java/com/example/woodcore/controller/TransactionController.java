@@ -21,7 +21,7 @@ import java.util.Map;
 import static org.springframework.http.HttpStatus.*;
 
 @RestController
-@RequestMapping(value = "/api/transactions")
+@RequestMapping("/api/transactions")
 public class TransactionController {
 
     @Autowired

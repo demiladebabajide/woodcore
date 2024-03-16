@@ -13,14 +13,12 @@ import java.util.Optional;
 @Service
 public class AccountServiceImpl implements AccountService {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(AccountServiceImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(AccountServiceImpl.class);
 
     private final AccountRepository accountRepository;
-    private final ObjectMapper mapper;
 
-    public AccountServiceImpl(AccountRepository accountRepository, ObjectMapper mapper) {
+    public AccountServiceImpl(AccountRepository accountRepository) {
         this.accountRepository = accountRepository;
-        this.mapper = mapper;
     }
 
     @Override

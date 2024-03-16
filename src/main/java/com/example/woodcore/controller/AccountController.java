@@ -17,7 +17,7 @@ import java.util.Map;
 import static org.springframework.http.HttpStatus.*;
 
 @RestController
-@RequestMapping(value = "/api/accounts")
+@RequestMapping("/api/accounts")
 public class AccountController {
 
     @Autowired
