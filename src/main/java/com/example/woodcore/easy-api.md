@@ -24,25 +24,17 @@ AccountController
 
 | name | type | desc |
 | ------------ | ------------ | ------------ |
-| accountNumber | integer |  |
 | firstName | string |  |
 | lastName | string |  |
 | address | string |  |
-| accountType | string |  |
-| accountStatus | string |  |
-| balance | number |  |
 
 **Request Demo:**
 
 ```json
 {
-  "accountNumber": 0,
   "firstName": "",
   "lastName": "",
-  "address": "",
-  "accountType": "",
-  "accountStatus": "",
-  "balance": 0.0
+  "address": ""
 }
 ```
 
@@ -168,13 +160,10 @@ AccountController
 
 | name | type | desc |
 | ------------ | ------------ | ------------ |
-| accountNumber | integer |  |
 | firstName | string |  |
 | lastName | string |  |
 | address | string |  |
 | accountType | string |  |
-| accountStatus | string |  |
-| balance | number |  |
 
 **Request Demo:**
 
@@ -184,9 +173,7 @@ AccountController
   "firstName": "",
   "lastName": "",
   "address": "",
-  "accountType": "",
-  "accountStatus": "",
-  "balance": 0.0
+  "accountType": ""
 }
 ```
 
